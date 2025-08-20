@@ -45,8 +45,8 @@ export function Signup() {
           onChange={e => setPassword(e.target.value)}
         />
         <br />
-        <Link to="/"><button>Go Back</button></Link>
         <button type="submit">Signup</button>
+        <Link to="/"><button>Go Back</button></Link>
       </form>
     </div>
   );
